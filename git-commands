@@ -1,0 +1,45 @@
+files folder
+------------------------
+
+git init
+git touch file1
+git status
+git add file1
+git commit -m "label" file1
+git log
+git show cid
+
+
+
+git touch file2 file3 file4
+git status
+git add file2 file3 file4    (or)  git add .   (or)   git add *    (or)    git add -A
+git status
+git commit -m "label" file2 file3 file4     (or)     git commit -m "label"
+
+
+git reset head file1 (staging-->workspace)
+git reset --soft cid(n-1)   (local repo---->staging)
+git reset --mixed cid(n-1)   (loca repo---->workspace  +   staging----->workspace)it 
+
+
+modify file1
+-------------
+git status           (workspace)
+git diff file1      (to see modifications in file1 which is in workspace)
+git add .
+git commit -m "label"
+git log
+git show cid        (to see modifications in file after committed)
+
+
+pushing files to github
+--------------------------
+cd ..
+git clone https://github.com/SaiVaishuu/batch80.git     (Never clone a repository in another repository)
+ls
+cd batch80/
+touch filename
+git add .
+git commit -m "label"
+git push
