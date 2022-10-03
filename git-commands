@@ -43,3 +43,10 @@ touch filename
 git add .
 git commit -m "label"
 git push
+
+
+alias
+--------
+git config --global alias.alias-name "original-name"
+git config --global --unset alias.alias-name
+git config --list
