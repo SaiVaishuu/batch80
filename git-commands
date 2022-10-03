@@ -45,8 +45,25 @@ git commit -m "label"
 git push
 
 
+
 alias
 --------
 git config --global alias.alias-name "original-name"
 git config --global --unset alias.alias-name
 git config --list
+
+branches
+-----------
+git branch branch-name  (to create branch)
+git branch            (list of branches)
+git checkout b-name
+
+git checkout -b branch-name (to create and checkout to the branch)
+
+git merge b1-name    (be in target branch-to where u want to copy data)(b1-source branch-from where u want to copy data) 
+git branch -d b-name  (to delete merged branch locally)
+git branch -D b-name   (to delete non-merged branch locally)
+git push origin b-name  (to push data in release branches/branches to central repo)
+git push origin -d b-name  (to delete the branch in central repo)
+
+
