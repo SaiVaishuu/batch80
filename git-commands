@@ -66,6 +66,13 @@ git branch -D b-name   (to delete non-merged branch locally)
 git push origin b-name  (to push data in release branches/branches to central repo)
 git push origin -d b-name  (to delete the branch in central repo)
 
+
 To see the data in the file:
 ----------------------------
 cat file-name
+
+To skip merge conflict in branches :
+----------------------------------
+git merge --abort
+
+
