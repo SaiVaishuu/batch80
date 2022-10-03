@@ -1,7 +1,8 @@
-<<<<<<< HEAD
+
 Hello r1 file
 Welcome to r1
 
 Welcome to central repository
 Github
-
+Merging conflicts in branches
+to skip merging conflict git merge --abort
