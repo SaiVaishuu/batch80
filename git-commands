@@ -110,4 +110,17 @@ amend
 ------------
 git commit --amend -m "any label"
 
+revert
+----------
+git revert cid
+
+diff
+--------
+git diff filename
+git diff f1 f2
+
+git diff branch1 branch2
+
+git diff tag1 tag2
+
 
