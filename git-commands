@@ -71,43 +71,8 @@ To see the data in the file:
 ----------------------------
 cat file-name
 
-To skip merge/rebase conflict in branches :
+To skip merge conflict in branches :
 ----------------------------------
 git merge --abort
-git rebase --abort
-
-stash memory
-------------
-git stash list
-git stash save "stash-labelname"
-git stash show stash@{x}
-git stash show -p stash@{x}
-git stash pop stash@{x}
-git stash apply stash@{x}
-git stash drop stash@{x}
-
-
-tag
------
-git tag
-git tag tagname
-git tag tagname cid
-git show tagname
-
-git tag -d tagname     (to delete tag locally)
-
-git push origin tagname
-git push --tags           (to push all tags at a time to central repo)
-
-git push origin -d tagname    (to delete tag centrally)
-
-git checkout tagname
-git checkout main
-
-
-
-amend
-------------
-git commit --amend -m "any label"
 
 
